@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #main{
+            border: 2px solid black;
+            width: 20%;
+            text-align: center;
+            color: rgb(160, 155, 155);
+        }
+        span{
+            animation: content;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            display: block;
+        }
+        .words{
+            overflow: hidden;
+        }
+        @keyframes content {
+            34%{
+                background-color: green;
+                transform: translateY(-112%);
+                
+            }
+            33%{
+                background-color: blue;
+                transform: translateY(-100%);
+            }
+            33%{
+                background-color:red ;
+                transform: translateY(112%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <p>MAKE </p>
+        <div class="words">
+            <span >LIFESTYLE</span> 
+            <span >WORK</span> 
+            <span >EVERYTHING</span> 
+        </div>
+            <p>AWESOME</p>
+    </div>
+</body>
+</html>

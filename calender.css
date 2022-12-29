@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    border: 2px solid black;
+    width: 30%;
+    margin: auto auto;
+    height: 193px;
+}
+
+.container {
+
+    display: grid;
+
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.weekday {
+    background-color: lightgray;
+}
+
+.day-1 {
+    grid-column: 4/5;
+}
+
+h1 {
+    margin: 20px;
+    margin-top: -5px;
+}
